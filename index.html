@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Twitch Discover</title>
+		<link rel="shortcut icon" href="logo.png" />
+    <link href="CSS/sidebar.css" rel="stylesheet" type="text/css" />
+		<link href="CSS/topbar.css" rel="stylesheet" type="text/css" />
+		<link href="CSS/mainbox.css" rel="stylesheet" type="text/css" />
+		<div class="topbar">
+			<img src="logo.png" class="logo">
+
+			<button class="topbarText_discover" onclick="click()">Discover</button>
+			<button class="topbarText_categories" onclick="click()">Categories</button>
+			<button class="topbarText_settings" onclick="settingsClick()">Settings</button>
+
+		</div>
+  </head>
+  <body>
+		<script src="script.js"></script>
+		<div class="sidebar">
+		</div>
+		<div class="mainMainbox" id="twitchEmbed">
+		</div>
+
+		<script src="https://embed.twitch.tv/embed/v1.js"></script>
+
+		<script type="text/javascript">
+      	//new Twitch.Embed("twitchEmbed", {
+        	//width: 1280,
+        	//height: 720,
+        	//channel: "michaelreeves",
+        	//parent: ["embed.example.com", "othersite.example.com"]
+      	//});
+    </script>
+  </body>
+</html>
