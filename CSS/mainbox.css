@@ -1,0 +1,30 @@
+.mainMainbox {
+	float: right;
+	position: relative;
+	right: 8%;
+	margin-top: 7vh;
+}
+
+.settingsMainbox {
+	float: right;
+	position: relative;
+	right: 11%;
+	margin-top: 7vh;
+	background-color: #18181B;
+	width: 60vw;
+	height: 100vh;
+	border-radius: 10px;
+}
+
+.settingsText {
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-size: 3vh;
+	display: inline;
+	color: white;
+	position: relative;
+	left: 8%;
+	top: -20%;
+	border: 0px;
+	outline: none;
+	background-color: transparent;
+}

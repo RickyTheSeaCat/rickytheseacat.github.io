@@ -1,0 +1,111 @@
+.topbar{
+	background-color: #18181B;
+	width: 100vw;
+	height: 5vh;
+}
+
+.logo {
+	height: 2vw;
+	position: relative;
+	top: 10%;
+	left: 2%
+}
+
+.topbarText_discover {
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-size: 3vh;
+	display: inline;
+	color: white;
+	position: relative;
+	left: 8%;
+	top: -20%;
+	border: 0px;
+	outline: none;
+	background-color: transparent;
+	transition: 0.1s; 
+}
+
+.topbarText_categories {
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-size: 3vh;
+	display: inline;
+	color: white;
+	position: relative;
+	left: 16%;
+	top: -20%;
+	border: 0px;
+	outline: none;
+	background-color: transparent;
+	transition: 0.1s;
+}
+
+.topbarText_settings {
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-size: 3vh;
+	display: inline;
+	color: white;
+	position: relative;
+	left: 75%;
+	top: -20%;
+	border: 0px;
+	outline: none;
+	background-color: transparent;
+	transition: 0.1s;
+}
+
+.topbarText_discover:hover {
+	color: #A76EFC;
+}
+
+.topbarText_categories:hover {
+	color: #A76EFC;
+}
+
+.topbarText_settings:hover {
+	color: #A76EFC;
+}
+
+.topbarText_discoverActive {
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-size: 3vh;
+	display: inline;
+	color: #A76EFC;
+	position: relative;
+	left: 8%;
+	top: -20%;
+	border: 0px;
+	outline: none;
+	background-color: transparent;
+	transition: 0.1s; 
+	text-decoration: underline;
+}
+
+.topbarText_categoriesActive {
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-size: 3vh;
+	display: inline;
+	color: #A76EFC;
+	position: relative;
+	left: 16%;
+	top: -20%;
+	border: 0px;
+	outline: none;
+	background-color: transparent;
+	transition: 0.1s;
+	text-decoration: underline;
+}
+
+.topbarText_settingsActive {
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-size: 3vh;
+	display: inline;
+	color: #A76EFC;
+	position: relative;
+	left: 75%;
+	top: -20%;
+	border: 0px;
+	outline: none;
+	background-color: transparent;
+	transition: 0.1s;
+	text-decoration: underline;
+}
